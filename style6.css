@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap ');
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding: 7px;
+box-sizing: border-box;
+margin: 0%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: azure;
+}
+.logo-img{
+    height: 100px;
+    width: 100px;
+}
+.logo2{
+   display: flex;
+   flex-direction: row;
+   }
+.menu2{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 87%;
+    margin-top: 5px;
+    list-style: none;
+}
+.enumeration{
+list-style: none;
+ padding: 10px;
+ font-size: 12px
+}
+li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+   }
+   li a i{
+    margin-right: 10px;
+   }
+   .name1{
+    text-align: center;
+    background-color: rgb(170, 213, 219);
+    background: linear-gradient(to top, #b4b5be, #c9d1ff);
+    padding: 80px;
+    border: 1px solid #000;
+   }
+   input{
+    border: 1px solid rgb(168, 194, 209);
+    height: 40px;
+    width: 90%;
+    padding: 10px 30px;
+    vertical-align: bottom;
+    box-sizing: border-box;
+   }
+   button {
+   height: 40px;
+   width: 100px;
+   background-color: aqua;
+   }
+  
+   .pic1{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+   }
+   .description{
+    position: absolute;
+    bottom: 250px;
+    right: 180px;
+     color: royalblue;
+    font-size: larger;
+    font-weight: 600;
+   }
+   
+   .enumeration2{
+    display: block;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+   }
+ .pic2{
+    list-style: none;
+    padding: 15px;
+    font-size: 15px
+ }
+.container2{
+    display: flex;
+    display: inline-flex;
+    justify-content: space-between;}
+.list2{
+    display: flex;
+    justify-content: space-between;
+}
+    .pic3{
+    display: flex;
+    flex-direction: column; 
+    }
+    .info{
+        text-align: center;
+        background-color: aqua;
+        padding-bottom: 4%;
+    }
